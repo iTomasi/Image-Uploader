@@ -1,0 +1,33 @@
+.notification {
+    position: fixed;
+    top: 30px;
+    left: -1000px;
+    font-size: 20px;
+    max-width: 90%;
+    text-align: justify;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition-property: left;
+    transition-duration: 0.4s;
+}
+
+.notification__error {
+    background: #FF2222;
+}
+
+.notification.active {
+    left: 5px;
+    transition-property: left;
+    transition-duration: 0.4s;
+}
+
+@media screen and (min-width: 310px) {
+    .notification {
+        max-width: 300px;
+        left: -1000px;
+    }
+
+    .notification.active {
+        left: 15px;
+    }
+}

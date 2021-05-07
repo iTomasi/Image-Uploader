@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+body {
+  background: #FAFAFB;
+  color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-height: 550px) {
+  body {
+    height: auto;
+    display: block;
+  }
+}

@@ -1,0 +1,63 @@
+.showImgUrl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #000000;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 15px 0;
+
+    .i__check {
+        color: #219653;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .i__times {
+        color: #FF6060;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        max-height: 300px;
+    }
+
+    .clipBoard {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+
+        input {
+            width: 65%;
+            cursor: text;
+        }
+
+        button[type="button"] {
+            width: 30%;
+            background: #2F80ED;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: #ffffff;
+            min-height: 35px;
+        }
+    }
+}
+
+@media screen and (min-width: 510px) {
+    .showImgUrl {
+        width: 500px;
+    }
+}

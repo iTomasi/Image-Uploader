@@ -1,0 +1,29 @@
+.uploadPorcentage {
+    background: #ffffff;
+    width: 95%;
+    padding: 30px 15px;
+    box-shadow: 3px 3px 10px #000;
+    border-radius: 10px;
+    margin: 30px auto;
+
+    .bar {
+        background: #F2F2F2;
+        height: 10px;
+        width: 100%;
+        border-radius: 1000px;
+        margin-top: 20px;
+
+        .current {
+            background: #2F80ED;
+            height: 100%;
+            width: 50%;
+            border-radius: 1000px;
+        }
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .uploadPorcentage {
+        width: 350px;
+    }
+} 
