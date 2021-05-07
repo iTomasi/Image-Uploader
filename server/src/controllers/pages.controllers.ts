@@ -1,6 +1,10 @@
 import {Request, Response} from "express";
 import path from "path";
 
+export const GET_welcome = (req: Request, res: Response) => {
+    res.json({message: "Welcome to my API"})
+}
+
 export const POST_uploadImg = (req: Request, res: Response) => {
 
     if (req.file === undefined) {
