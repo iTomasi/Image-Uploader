@@ -8,11 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/iTomasi/Image-Uploader">
       Solution
     </a>
     <span> | </span>
@@ -39,12 +35,17 @@
 
 ![screenshot](https://i.imgur.com/QkllwsF.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 - Where can I see your demo?
+
+I have not found free hosting for react and nodejs together :(
+
 - What was your experience?
+
+it was a motivating experience this helps me to continue progressing in the world of programming
+
 - What have you learned/improved?
-- Your wisdom? :)
+
+I learned to handle react contexts much better
 
 ### Built With
 
@@ -58,7 +59,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
 
 ## How To Use
 
