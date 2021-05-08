@@ -10,6 +10,9 @@
 
 <div align="center">
   <h3>
+    <a href="https://image-uploader-devchallenge.vercel.app/">
+      Demo
+    </a>
     <a href="https://github.com/iTomasi/Image-Uploader">
       Solution
     </a>
