@@ -13,6 +13,7 @@
     <a href="https://image-uploader-devchallenge.vercel.app/">
       Demo
     </a>
+    <span> | </span>
     <a href="https://github.com/iTomasi/Image-Uploader">
       Solution
     </a>
