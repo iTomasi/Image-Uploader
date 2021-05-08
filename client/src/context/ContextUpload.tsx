@@ -1,6 +1,4 @@
 import React, {useState, createContext} from "react";
-
-// eslint-disable-next-line
 import config from "../config/config";
 import Axios from "axios";
 
@@ -16,16 +14,18 @@ const ContextUpload = ({children}: any) => {
 
     const uploadingFile = async (file: any) => {
 
-        const uploadPreset: any = process.env.REACT_APP_CLOUDINARY_PRESET;
-        const cloudinaryURL: any = process.env.REACT_APP_CLOUDINARY_URL;
-
         const formData = new FormData();
+        // if you will use node backend remove 'file' to 'theImg'
         formData.append("file", file);
-        formData.append("upload_preset", uploadPreset)
+
+        // remove this line if you will use node backend
+        formData.append("upload_preset", config.HOST.CLOUDINARY_PRESET)
 
         setFileInfo((prev: any) => ({...prev, state: 1}));
         
-        const res = await Axios.post(cloudinaryURL, formData, {
+        // put config.HOST.BACK_END + "/upload" if you will use node backend
+
+        const res = await Axios.post(config.HOST.BACK_END, formData, {
             headers: {"Content-Type": "multipart/form-data"},
             onUploadProgress: e => {
                 const getPorcentage = (e.loaded * 100) / e.total;
