@@ -16,7 +16,7 @@ const UploadPorcentage = ({display}: IUploadPorcentageProps) => {
         <div className="uploadPorcentage" style={{display: display ? "block" : "none"}}>
             <h2 style={{
                 color: "#4F4F4F"
-            }}>Uploading... <span>({Math.round(fileInfo.progressUL)})</span></h2>
+            }}>Uploading... <span>({Math.round(fileInfo.progressUL)}%)</span></h2>
 
             <div className="bar">
                 <div className="current" style={{width: `${fileInfo.progressUL}%`}}></div>

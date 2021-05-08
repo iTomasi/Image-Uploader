@@ -2,6 +2,8 @@
 
 <h1 align="center">Image-Uploader</h1>
 
+<h2>I couldn't find a free host for my nodejs server :(, I had to use cloudinary to do the demo. But the backend code works, you just have to configure it on the client</h2>
+
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>

@@ -19,13 +19,13 @@ const ShowImgUrl = ({display}: IShowImgUrlProps) => {
     return (
         <div className="showImgUrl" style={{display: display ? "flex" : "none"}}>
             {
-                fileInfo.uploaded
+                fileInfo.uploaded === 200
                 ? <i className="i__check fas fa-check-circle"></i>
                 : <i className="i__times fas fa-times-circle"></i>
             }
             <h2>
                 {
-                    fileInfo.uploaded
+                    fileInfo.uploaded === 200
                     ? "Uploaded Successfully"
                     : "Error"
                 }
